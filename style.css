@@ -1,0 +1,92 @@
+body{
+		background-color: #2A6569;
+	}
+	.myPlayer{
+		background-color: #FF7F66;
+		width:40%;
+		margin-left:30%;
+		margin-right:30%;
+		border:solid 5px #FF7F66;
+		border-radius: 20px;
+		-moz-border-radius: 10px; 
+		-webkit-border-radius: 10px;
+	}
+
+	.thumbails{
+		margin-top:10%;
+	}
+
+	img{
+		width:40%;
+		height:40%;
+		border:solid #2A6569;
+		border-radius: 50%;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%;
+		position:relative;
+		left:50%;
+		top:50%;
+		transform: translate(-50%,0%);
+	}
+
+	audio{
+		width:100%;
+	}
+
+	button{
+		width:60px;
+		height:60px;
+		margin-left: 10%;
+		margin-bottom: 0%;
+		padding:0px;
+		background-color : #2A6569;
+		border:dotted #2A6569 5px;
+		border-radius: 60px;
+		-moz-border-radius: 60px; 
+		-webkit-border-radius: 60px;
+		opacity: 0.7;
+		background-size: 60%;
+		background-position: center center;
+		background-repeat: no-repeat;
+		cursor:pointer;
+	}
+
+	button:hover{
+		opacity:1;
+	}
+
+	button#pause{
+		background-image:url('http://brotherspc.com/icones/pause.png');
+	}
+
+	button#stop{
+		background-image: url('http://www.iconsdb.com/icons/preview/white/stop-xxl.png');
+	}
+
+	div.controls{
+		margin-top: 10%;
+		margin-bottom: 10%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	div#control{
+		background-image: url('https://cdn1.iconfinder.com/data/icons/pixel-perfect-at-16px-volume-2/16/5001-512.png');
+		width:30px;
+		height:30px;
+		background-size: cover;
+		cursor: pointer;
+	}
+
+	button#play{
+		background-image: url('https://code.org/shared/images/play-button.png');
+		background-color: #2A6569;
+	}
+
+	.url{
+		width:20px;
+		height:20px;
+		background-image: url('https://cdn3.iconfinder.com/data/icons/social-media-2-2/256/Add_Link-512.png');
+		background-size: cover;
+		float:right;
+	}

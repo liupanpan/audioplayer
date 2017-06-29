@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Audio Player</title>
+</head>
+<body>
+	<div class="myPlayer">
+		<div class="url" onclick="addUrl()"></div>
+		<div class="thumbails">
+			<img id="thumbail" src="http://pinstripe-productions.com/wp-content/uploads/2016/11/projectblur-2-400x400.jpg">
+		</div>
+		<div class="audio">
+			<div class="controls">
+				<button id="play" onclick="playAudio()" type="button"></button>
+				<button id="pause" onclick="pauseAudio()" type="button"></button>
+				<button id="stop" onclick="stopAudio()" type="button"></button>
+			</div>
+			<div id="control" onclick="controlAudio()"></div>
+			<audio id="myAudio">
+			</audio>
+		</div>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
